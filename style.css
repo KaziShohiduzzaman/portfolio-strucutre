@@ -1,0 +1,23 @@
+.common-style{
+    width: 25%;
+    height: 300px;
+}
+.main-content{
+    width: 50%;
+    height: 300px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-container{
+        flex-direction: column;
+    }
+    .main-content{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .common-style{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
